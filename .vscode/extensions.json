@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "codeandstuff.package-json-upgrade",
+        "dbaeumer.vscode-eslint"
+    ]
+}
