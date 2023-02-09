@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
 import { Engine, Syncer, App } from '@dreamcatcher-tech/webdos'
 import { apps } from '@dreamcatcher-tech/interblock'
 
