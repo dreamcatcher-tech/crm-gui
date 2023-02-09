@@ -388,12 +388,12 @@
   dependencies:
     tslib "^2.0.0"
 
-"@dreamcatcher-tech/dos@^1.0.27":
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/@dreamcatcher-tech/dos/-/dos-1.0.27.tgz#53cb8c3ff7f2ef06991542896ed3bd783c38dfc4"
-  integrity sha512-jTHT1hqd4BBZcp3SbKNeg8gjDMmDcYgE+2j3kwm6yMty9ElSwT1N0Jt77B+p8h9iHQbaN1fQLoeckNPYENKANA==
+"@dreamcatcher-tech/dos@^1.0.29":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@dreamcatcher-tech/dos/-/dos-1.0.29.tgz#12c46ca0f9bd84a7fb9076ff28f24bc60db1d132"
+  integrity sha512-8UDcnxzLQwdT0AgxMyfUgp4ZndkhVGWKq2fkC1ueEe3DjJnFU7hRlo1TxE3+CzV2EamhsKLCTuBitjQQ3sY19g==
   dependencies:
-    "@dreamcatcher-tech/interblock" "^1.0.27"
+    "@dreamcatcher-tech/interblock" "^1.0.29"
     "@multiformats/multiaddr" "^11.1.4"
     "@vitejs/plugin-react" "^3.0.0"
     ansi-colors-browserify "^4.1.2"
@@ -414,10 +414,10 @@
     process "^0.11.10"
     wherearewe "^2.0.1"
 
-"@dreamcatcher-tech/interblock@^1.0.27":
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/@dreamcatcher-tech/interblock/-/interblock-1.0.27.tgz#745e52b87b5c5eb86f3329f5a8858ed8cd1aa7f0"
-  integrity sha512-GBsbsmfkTl76viUZy4hH9oHe0xP0D8IEpgbzAUkaEPIYiLwO9n78g5MS4LtnaP6rFamJIR4vwl3DyzNAw2d1hw==
+"@dreamcatcher-tech/interblock@^1.0.29":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@dreamcatcher-tech/interblock/-/interblock-1.0.29.tgz#1f7916fe0e3ebc55d3cd97d84bb6d4315f122f70"
+  integrity sha512-G5APUGt5CwEVQ7XcP1X8wCG1TUXAboJ102a1qj7LkJgO+2DmgGybldYAVJhRm3tK49jfble40jCWUpD+xQnDfw==
   dependencies:
     "@chainsafe/libp2p-noise" "^11.0.0"
     "@faker-js/faker" "^7.6.0"
@@ -463,16 +463,16 @@
     uint8arrays "^4.0.3"
     wherearewe "^2.0.1"
 
-"@dreamcatcher-tech/webdos@^1.0.27":
-  version "1.0.27"
-  resolved "https://registry.yarnpkg.com/@dreamcatcher-tech/webdos/-/webdos-1.0.27.tgz#6e9c8f1bd841dd61f9df3fef6f18bab7e0aa54e6"
-  integrity sha512-7nrkiRXv8CF9IAgtjhz33IZIrXnM5L9vJ8ZeaJDtkeERaR1P5gM9REVM6Dw1PRoI3sAphOmBnnGxitEn2ZKwoQ==
+"@dreamcatcher-tech/webdos@^1.0.29":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@dreamcatcher-tech/webdos/-/webdos-1.0.29.tgz#e43e0655e7f552c3de3f28ff5dae5ef5eeed6189"
+  integrity sha512-F89+B1gzNzHDW/WAhj4hoZcl1HTKnWbOmapN7/xg1ny+P2WFuqnovznIjY7Gk44ME2bXGNAY1cQaftcM2S7Shw==
   dependencies:
     "@dnd-kit/core" "^6.0.7"
     "@dnd-kit/modifiers" "^6.0.1"
     "@dnd-kit/sortable" "^7.0.2"
-    "@dreamcatcher-tech/dos" "^1.0.27"
-    "@dreamcatcher-tech/interblock" "^1.0.27"
+    "@dreamcatcher-tech/dos" "^1.0.29"
+    "@dreamcatcher-tech/interblock" "^1.0.29"
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
     "@geoman-io/leaflet-geoman-free" "^2.14.1"
