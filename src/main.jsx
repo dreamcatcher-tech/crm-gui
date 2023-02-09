@@ -18,11 +18,11 @@ const makeInit = ({ sectors = 2, customers = 10 } = {}) => {
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <Engine dev={{ '/crm': apps.crm.covenant }} init={makeInit()}>
       <Syncer path="/app">
         <App />
       </Syncer>
     </Engine>
-  // </React.StrictMode>,
+  </React.StrictMode>,
 )
