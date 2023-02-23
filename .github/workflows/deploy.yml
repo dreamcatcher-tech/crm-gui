@@ -17,14 +17,14 @@ jobs:
         with:
           node-version: 18
           cache: yarn
-      - run: ls
-      - run: pwd
 
       - name: Install
-        run: yarn install --frozen-lockfile
+        run: yarn install --focus --frozen-lockfile
+        working-directory: ./pkg/crm-gui
 
       - name: Build
         run: yarn build
+        working-directory: ./pkg/crm-gui
         env: 
           NODE_OPTIONS: --max-old-space-size=8192
 
@@ -32,5 +32,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./pkg/crm-gui/dist
           cname: hamr.dreamcatcher.land
