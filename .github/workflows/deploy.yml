@@ -10,9 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with: 
-          name: dreamcatcher-tech/dreamcatcher-stack
+          repository: dreamcatcher-tech/dreamcatcher-stack
           # Pull only the latest released version
-          ref: tags/v1.0.43
+          ref: refs/tags/v1.0.43
       - uses: actions/setup-node@v3
         with:
           node-version: 18
