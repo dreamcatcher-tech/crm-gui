@@ -12,7 +12,7 @@ jobs:
         with: 
           repository: dreamcatcher-tech/dreamcatcher-stack
           # Pull only the latest released version
-          ref: refs/tags/v1.0.77
+          ref: refs/tags/v1.0.78
       - uses: actions/setup-node@v3
         with:
           node-version: 18
